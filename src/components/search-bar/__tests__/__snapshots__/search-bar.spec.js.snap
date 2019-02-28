@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book tests book component is loaded correctly 1`] = `
+<styled.div>
+  <styled.div
+    className="ui icon input "
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for a book here..."
+      type="text"
+      value=""
+    />
+    <Styled(Button)
+      onClick={[Function]}
+      positive={true}
+    >
+      Search
+    </Styled(Button)>
+  </styled.div>
+</styled.div>
+`;

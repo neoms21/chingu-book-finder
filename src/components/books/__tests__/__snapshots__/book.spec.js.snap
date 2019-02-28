@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book tests book component is loaded correctly with images 1`] = `
+<styled.div>
+  <styled.img
+    alt="title"
+    src=""
+  />
+  <styled.div>
+    <styled.h4>
+      title
+    </styled.h4>
+    <styled.div>
+      <span
+        key="aa"
+      >
+        aa
+      </span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+         
+        <i
+          className="icon star"
+        />
+      </styled.span>
+      <a>
+        <Icon
+          as="i"
+          name="external alternate"
+        />
+      </a>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Book tests book component is loaded correctly without images 1`] = `
+<styled.div>
+  <styled.img
+    alt="title"
+    src="no-img.jpg"
+  />
+  <styled.div>
+    <styled.h4>
+      title
+    </styled.h4>
+    <styled.div>
+      <span
+        key="aa"
+      >
+        aa
+      </span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+         
+        <i
+          className="icon star"
+        />
+      </styled.span>
+      <a>
+        <Icon
+          as="i"
+          name="external alternate"
+        />
+      </a>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Book tests book component is loaded if no authors 1`] = `
+<styled.div>
+  <styled.img
+    alt="title"
+    src=""
+  />
+  <styled.div>
+    <styled.h4>
+      title
+    </styled.h4>
+    <styled.div>
+      <styled.span>
+         
+        <i
+          className="icon star"
+        />
+      </styled.span>
+      <a>
+        <Icon
+          as="i"
+          name="external alternate"
+        />
+      </a>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books lists tests renders correctly 1`] = `
+<styled.div>
+  <Book
+    book={
+      Object {
+        "id": "a",
+      }
+    }
+    key="a"
+  />
+  <Book
+    book={
+      Object {
+        "id": "b",
+      }
+    }
+    key="b"
+  />
+</styled.div>
+`;
+
+exports[`Books lists tests renders error message when no books 1`] = `
+<styled.div>
+  <ErrorMessage
+    message="No books for this query!!"
+  />
+</styled.div>
+`;
